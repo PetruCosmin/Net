@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "TsNw1ddLAzI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Proiect_Licenta_NetworkCamApp\\Proiect_Licenta_NetworkCamApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\libvlcsharp\\3.9.1\\libvlcsharp.3.9.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\libvlcsharp.wpf\\3.9.1\\libvlcsharp.wpf.3.9.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0\\microsoft.win32.systemevents.9.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common\\9.0.0\\system.drawing.common.9.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\videolan.libvlc.windows\\3.0.21\\videolan.libvlc.windows.3.0.21.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vlc.dotnet.core\\3.1.0\\vlc.dotnet.core.3.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vlc.dotnet.core.interops\\3.1.0\\vlc.dotnet.core.interops.3.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vlc.dotnet.wpf\\3.1.0\\vlc.dotnet.wpf.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

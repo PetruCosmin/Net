@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proiect_Licenta_NetworkCamApp", "Proiect_Licenta_NetworkCamApp.csproj", "{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileExplorer", "..\Explorer_Windows\FileExplorer.csproj", "{DA73AA98-59E4-4027-8ADB-46EC418C1D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camera_", "..\Camera\Camera_.csproj", "{508A3146-4A81-437D-88AE-36578E709145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network_Connection", "..\Network_Connection\Network_Connection.csproj", "{616A7771-9900-4A7D-B720-E06E153E72D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA73AA98-59E4-4027-8ADB-46EC418C1D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA73AA98-59E4-4027-8ADB-46EC418C1D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA73AA98-59E4-4027-8ADB-46EC418C1D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA73AA98-59E4-4027-8ADB-46EC418C1D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508A3146-4A81-437D-88AE-36578E709145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508A3146-4A81-437D-88AE-36578E709145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508A3146-4A81-437D-88AE-36578E709145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508A3146-4A81-437D-88AE-36578E709145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616A7771-9900-4A7D-B720-E06E153E72D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616A7771-9900-4A7D-B720-E06E153E72D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616A7771-9900-4A7D-B720-E06E153E72D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616A7771-9900-4A7D-B720-E06E153E72D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B348BDA-440E-4A90-BC90-9EEDEA2E25B3}
+	EndGlobalSection
+EndGlobal

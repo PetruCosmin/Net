@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Camera\bin\Debug\Camera.dll
+C:\Users\Administrator\source\repos\Camera\bin\Debug\Camera.pdb
+C:\Users\Administrator\source\repos\Camera\obj\Debug\Camera_.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Camera\obj\Debug\Camera_.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Camera\obj\Debug\Camera.dll
+C:\Users\Administrator\source\repos\Camera\obj\Debug\Camera.pdb
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera\bin\Debug\Camera.dll
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera\bin\Debug\Camera.pdb
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera\obj\Debug\Camera_.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera\obj\Debug\Camera_.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera\obj\Debug\Camera.dll
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera\obj\Debug\Camera.pdb

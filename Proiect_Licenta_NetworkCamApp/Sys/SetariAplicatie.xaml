@@ -1,0 +1,57 @@
+﻿<Window x:Class="Proiect_Licenta_NetworkCamApp.Sys.SetariAplicatie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proiect_Licenta_NetworkCamApp.Sys"
+        mc:Ignorable="d"
+        Title="SetariAplicatie" Height="450" Width="800">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="_Fișier">
+                <MenuItem Header="_Deschide"/>
+                <MenuItem Header="_Salvează"/>
+                <MenuItem Header="_Exportă"/>
+                <Separator/>
+                <MenuItem Header="_Ieșire"/>
+            </MenuItem>
+            <MenuItem Header="_Vizualizare">
+                <MenuItem Header="_Mod ecran complet"/>
+                <MenuItem Header="_Zoom in"/>
+                <MenuItem Header="_Zoom out"/>
+                <MenuItem Header="_Aranjare ferestre"/>
+            </MenuItem>
+            <MenuItem Header="_Camere">
+                <MenuItem Header="_Adaugă cameră"/>
+                <MenuItem Header="_Elimină cameră"/>
+                <MenuItem Header="_Configurare cameră"/>
+                <MenuItem Header="_Vizualizare live"/>
+            </MenuItem>
+            <MenuItem Header="_Setări">
+                <MenuItem Header="_Preferințe utilizator"/>
+                <MenuItem Header="_Setări rețea"/>
+                <MenuItem Header="_Setări de securitate"/>
+                <MenuItem Header="_Actualizări software"/>
+            </MenuItem>
+            <MenuItem Header="_Ajutor">
+                <MenuItem Header="_Documentație"/>
+                <MenuItem Header="_Suport tehnic"/>
+                <MenuItem Header="_Despre"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar VerticalAlignment="Top" Margin="0,24,0,0">
+            <Button Content="Adaugă cameră"/>
+            <Button Content="Elimină cameră"/>
+            <Button Content="Configurare cameră"/>
+            <Button Content="Vizualizare live"/>
+            <Separator/>
+            <Button Content="Setări rețea"/>
+            <Button Content="Preferințe utilizator"/>
+            <Button Content="Securitate"/>
+            <Button Content="Actualizări"/>
+        </ToolBar>
+        <Grid Margin="0,64,0,0">
+            <!-- Conținutul principal al aplicației va fi plasat aici -->
+        </Grid>
+    </Grid>
+</Window>

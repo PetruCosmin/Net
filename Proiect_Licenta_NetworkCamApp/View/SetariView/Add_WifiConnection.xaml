@@ -1,0 +1,34 @@
+﻿<Page x:Class="Proiect_Licenta_NetworkCamApp.View.SetariView.Add_WifiConnection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vlc="clr-namespace:LibVLCSharp.WPF;assembly=LibVLCSharp.WPF"
+        xmlns:local="clr-namespace:Proiect_Licenta_NetworkCamApp.View.SetariView"
+        mc:Ignorable="d"
+        Title="Add WiFi Connection" Height="450" Width="800">
+    <Grid>
+        <!-- Video feed -->
+        <vlc:VideoView x:Name="vlcVideoView" HorizontalAlignment="Right" VerticalAlignment="Top"
+                   Margin="10" Width="200" Height="200" />
+
+        <!-- WiFi networks list -->
+        <ListView ItemsSource="{Binding WifiNetworks}" VerticalAlignment="Top" Margin="10,10,197,0" Height="42">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="SSID" DisplayMemberBinding="{Binding SSID}" Width="150"/>
+                    <GridViewColumn Header="BSSID" DisplayMemberBinding="{Binding BSSID}" Width="150"/>
+                    <GridViewColumn Header="Signal Strength" DisplayMemberBinding="{Binding SignalStrength}" Width="100"/>
+                    <GridViewColumn Header="Radio Type" DisplayMemberBinding="{Binding RadioType}" Width="100"/>
+                    <GridViewColumn Header="Frequency" DisplayMemberBinding="{Binding Frequency}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">
+            <Button Content="Scan for WiFi" Width="120" Margin="5" Click="ScanButton_Click"/>
+            <Button Content="Connect" Width="120" Margin="5" Click="ConnectButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

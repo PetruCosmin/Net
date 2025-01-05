@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<ApplicationIcon>Resources\Image\Icon\iconcam.ico</ApplicationIcon>
+		<UseWindowsForms>False</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="Resources\Image\Icon\iconcam.ico">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Lib\LibVLCSharp.dll" />
+		<Content Include="Lib\LibVLCSharp.WPF.dll" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include=".csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LibVLCSharp" Version="3.9.1" />
+		<PackageReference Include="LibVLCSharp.WPF" Version="3.9.1" />
+		<PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.21" />
+		<PackageReference Include="Vlc.DotNet.Core" Version="3.1.0" />
+		<PackageReference Include="Vlc.DotNet.Wpf" Version="3.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Camera\Camera_.csproj" />
+	  <ProjectReference Include="..\Explorer_Windows\FileExplorer.csproj" />
+	  <ProjectReference Include="..\Network_Connection\Network_Connection.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Settings.Designer.cs">
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
+		<None Update="Properties\Settings.settings">
+			<Generator>SettingsSingleFileGenerator</Generator>
+			<LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		</None>
+	</ItemGroup>
+
+</Project>

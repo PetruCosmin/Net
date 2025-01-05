@@ -1,0 +1,209 @@
+﻿<Window x:Class="Proiect_Licenta_NetworkCamApp.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:sys="clr-namespace:Proiect_Licenta_NetworkCamApp.Sys" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        Title="APLICATIE LICENTA"
+        WindowState="Normal"
+        ResizeMode="CanResize"
+       
+        xmlns:local="clr-namespace:Proiect_Licenta_NetworkCamApp.Converters"
+        Background="#151557"
+        Height="768"
+        Width="1024"
+        WindowStyle="SingleBorderWindow"
+        Icon="pack://application:,,,/Resources/Image/Icon/iconcam.ico">
+
+
+
+    <Window.Resources>
+          
+        <!-- Stil pentru ButonMeniu -->
+        <Style x:Key="ButonMeniu" TargetType="RadioButton">
+            <Setter Property="Background" Value="#107575"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border x:Name="Border" Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="Background" Value="#1A8C8D"/>
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#FFF"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="Border" Property="Background" Value="#1A8C8D"/>
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#FFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Alte stiluri pentru butoane -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightBlue"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+          
+        <local:ViewToCheckedConverter x:Key="ViewToCheckedConverter" />
+        
+    </Window.Resources>
+
+    <Border Background="#151557">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Proiect Licență"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left"
+                       Foreground="AntiqueWhite"
+                       FontFamily="Arial"
+                       FontSize="25"
+                       Grid.Column="0"
+                       Margin="75,14,0,0" Grid.ColumnSpan="2" />
+
+            <Frame x:Name="MainFrame" Grid.Row="1" Grid.Column="1" Background="Lavender"
+                   NavigationUIVisibility="Hidden" Margin="10,125,10,10" 
+                   Navigated="MainFrame_Navigated" />
+            <!-- Buton meniu -->
+
+
+            <StackPanel Grid.Column="0" Grid.Row="1" Background="Lavender" Margin="0,0,0,52">
+                <!-- RadioButton for SETARI CAMERA -->
+                <RadioButton Content="SETARI CAMERA" Style="{StaticResource ButonMeniu}" Height="50" 
+                 IsChecked="{Binding CurrentView, Converter={StaticResource ViewToCheckedConverter}, ConverterParameter=SetariView}" 
+                 Command="{Binding SwitchToSetariCommand}" />
+
+                <!-- RadioButton for Record -->
+                <RadioButton Content="Record" Style="{StaticResource ButonMeniu}" Height="50" 
+                             IsChecked="{Binding CurrentView, Converter={StaticResource ViewToCheckedConverter}, ConverterParameter=RecordView}" 
+                 Command="{Binding SwitchToRecordCommand}" />
+
+                <!-- RadioButton for STORAGE -->
+                <RadioButton Content="STORAGE" Style="{StaticResource ButonMeniu}" Height="50" 
+                 IsChecked="{Binding CurrentView, Converter={StaticResource ViewToCheckedConverter}, ConverterParameter=StorageView}" 
+                 Command="{Binding SwitchToStorageCommand}" />
+
+                <!-- RadioButton for CAMERE -->
+                <RadioButton Content="CAMERE" Style="{StaticResource ButonMeniu}" Height="50" 
+                 IsChecked="{Binding CurrentView, Converter={StaticResource ViewToCheckedConverter}, ConverterParameter=CameraView}" 
+                 Command="{Binding SwitchToCameraCommand}" />
+
+
+
+                <RadioButton Content="Lisra camere" Style="{StaticResource ButonMeniu}" Height="50" 
+                     Click="ListCameras_Click"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,200,0,0">
+                    <Image Source="C:\Users\Administrator\source\repos\FileExplorer03\FileExplorer03\Image\folder_image.png" 
+Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
+                        <Image.OpacityMask>
+                            <LinearGradientBrush>
+                                <GradientStop Color="Transparent" Offset="0"/>
+                                <GradientStop Color="Yellow" Offset="0.5"/>
+                                <GradientStop Color="Transparent" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Image.OpacityMask>
+                    </Image>
+                    <Button VerticalAlignment="Center"  Click="Playback_Click">
+                        <TextBlock Text="SETARI Aplicatie" VerticalAlignment="Center" />
+
+
+                    </Button>
+                </StackPanel>
+
+
+
+                <StackPanel Orientation="Horizontal" Margin="0,200,0,0">
+                    <Image Source="C:\Users\Administrator\source\repos\FileExplorer03\FileExplorer03\Image\folder_image.png" 
+           Width="20" Height="20" Margin="5,0,10,0" Opacity="0.5">
+                        <Image.OpacityMask>
+                            <LinearGradientBrush>
+                                <GradientStop Color="Transparent" Offset="0"/>
+                                <GradientStop Color="Yellow" Offset="0.5"/>
+                                <GradientStop Color="Transparent" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Image.OpacityMask>
+                    </Image>
+                    <Button VerticalAlignment="Center"  Click="FileExplorer_Click">
+                        <TextBlock Text="SETARI Aplicatie" VerticalAlignment="Center" />
+                        
+
+                    </Button>
+                </StackPanel>
+
+
+
+
+            </StackPanel>
+
+
+
+
+
+
+            <!-- Buton pentru adaugare camere -->
+
+            <Button BorderBrush="#1F3A44" BorderThickness="2" Background="#107575" Opacity="1" Width="130" Height="110" 
+        Click="AddCameraButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" 
+        Margin="10,2,2,0" Grid.Column="1" Grid.Row="1">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Proiect_Licenta_NetworkCamApp\Resources\Image\Icon\icon_AddCamera.png"
+                           Width="138" Height="118" Margin="-10,0,0,0" Opacity="0.5">
+                        <Image.OpacityMask>
+                            <LinearGradientBrush>
+                                <GradientStop Color="Transparent" Offset="0"/>
+                                <GradientStop Color="Yellow" Offset="0.5"/>
+                                <GradientStop Color="Transparent" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Image.OpacityMask>
+                    </Image>
+                   
+                </StackPanel>
+            </Button>
+
+
+            <!-- Main Grid for Camera Panels -->
+            <Border Grid.Column="1" BorderBrush="Transparent" BorderThickness="2" Background="Transparent" 
+                    Grid.Row="1" Margin="150,10,10,10">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                    <WrapPanel x:Name="MainGrid" Orientation="Horizontal" Margin="0">
+                        <!-- Camerele se adaugă aici -->
+                    </WrapPanel>
+                </ScrollViewer>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

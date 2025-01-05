@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style BasedOn="{StaticResource {x:Type ToggleButton}}"
+        TargetType="{x:Type RadioButton}"
+        x:Key="ButonMeniu">
+        <Style.Setters>
+            <!-- Template-ul pentru buton -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Grid VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Background="{TemplateBinding Background}">
+                            <!-- TextBlock pentru a afisa textul din Content -->
+                            <TextBlock Text="{TemplateBinding Content}"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Foreground="{TemplateBinding Foreground}" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <!-- Setările implicite -->
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14" />
+        </Style.Setters>
+
+        <!-- Triggers pentru schimbarea vizuală în funcție de starea butonului -->
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Background" Value="#282828" />
+                <Setter Property="Foreground" Value="White" />
+            </Trigger>
+            <Trigger Property="IsChecked" Value="False">
+                <Setter Property="Background" Value="Transparent" />
+                <Setter Property="Foreground" Value="Gray" />
+            </Trigger>
+            <!-- Hover effect -->
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#505050" />
+                <Setter Property="Foreground" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

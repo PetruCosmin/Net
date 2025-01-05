@@ -1,0 +1,212 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Proiect_Licenta_NetworkCamApp/1.0.0": {
+        "dependencies": {
+          "Camera_": "1.0.0",
+          "FileExplorer": "1.0.0",
+          "LibVLCSharp": "3.9.1",
+          "LibVLCSharp.WPF": "3.9.1",
+          "Network_Connection": "1.0.0",
+          "VideoLAN.LibVLC.Windows": "3.0.21",
+          "Vlc.DotNet.Core": "3.1.0",
+          "Vlc.DotNet.Wpf": "3.1.0"
+        },
+        "runtime": {
+          "Proiect_Licenta_NetworkCamApp.dll": {}
+        }
+      },
+      "LibVLCSharp/3.9.1": {
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
+          }
+        }
+      },
+      "LibVLCSharp.WPF/3.9.1": {
+        "dependencies": {
+          "LibVLCSharp": "3.9.1"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WPF.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/9.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Drawing.Common/9.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52901"
+          },
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52901"
+          }
+        }
+      },
+      "VideoLAN.LibVLC.Windows/3.0.21": {},
+      "Vlc.DotNet.Core/3.1.0": {
+        "dependencies": {
+          "Vlc.DotNet.Core.Interops": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Vlc.DotNet.Core.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Vlc.DotNet.Core.Interops/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Vlc.DotNet.Core.Interops.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Vlc.DotNet.Wpf/3.1.0": {
+        "dependencies": {
+          "Vlc.DotNet.Core": "3.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Vlc.DotNet.Wpf.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Camera_/1.0.0": {
+        "runtime": {
+          "Camera.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
+        }
+      },
+      "FileExplorer/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "9.0.0"
+        },
+        "runtime": {
+          "FileExplorer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Network_Connection/1.0.0": {
+        "runtime": {
+          "Network_Connection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proiect_Licenta_NetworkCamApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibVLCSharp/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SNvZz5bIJJ0GAaywmXyskZ+ZO42vomDUWXIo5qDpsG9x2kdQrtOuqRx/KNQDnbxBBStYXQUI7DlhzJwz/3xG6g==",
+      "path": "libvlcsharp/3.9.1",
+      "hashPath": "libvlcsharp.3.9.1.nupkg.sha512"
+    },
+    "LibVLCSharp.WPF/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SiXkJWWAVgboYY6sZlZYSHJXhvCUOjmzWwqsPg5B/BjZ4AqzoT4dWbSE2ZslG3a5neu+WGDMYNYJmSugjN88oQ==",
+      "path": "libvlcsharp.wpf/3.9.1",
+      "hashPath": "libvlcsharp.wpf.3.9.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z8FfGIaoeALdD+KF44A2uP8PZIQQtDGiXsOLuN8nohbKhkyKt7zGaZb+fKiCxTuBqG22Q7myIAioSWaIcOOrOw==",
+      "path": "microsoft.win32.systemevents/9.0.0",
+      "hashPath": "microsoft.win32.systemevents.9.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uoozjI3+dlgKh2onFJcz8aNLh6TRCPlLSh8Dbuljc8CdvqXrxHOVysJlrHvlsOCqceqGBR1wrMPxlnzzhynktw==",
+      "path": "system.drawing.common/9.0.0",
+      "hashPath": "system.drawing.common.9.0.0.nupkg.sha512"
+    },
+    "VideoLAN.LibVLC.Windows/3.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1b1yjZPIzS2+s6YZv9Z5Co/q2srIvo03ZToPvZblWreeyeFGkLDwX7WZat8AxCB9uMQV6VUnms67SgQqko7Z0w==",
+      "path": "videolan.libvlc.windows/3.0.21",
+      "hashPath": "videolan.libvlc.windows.3.0.21.nupkg.sha512"
+    },
+    "Vlc.DotNet.Core/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t9jinVlEEgS0PHyNeu+jGE06yKeqyQ4RG7Bpno1M1ghxAhogpc7rFkRg5/CMHINsZJw4nr88I3xrUecanlA5kA==",
+      "path": "vlc.dotnet.core/3.1.0",
+      "hashPath": "vlc.dotnet.core.3.1.0.nupkg.sha512"
+    },
+    "Vlc.DotNet.Core.Interops/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-22JkrxSBN9OVkxT3zMgwT67kUc+RQx35+NG5md9n9qM7vEI2EUEVqHeKiO8ssF7/mYi6Z8lJx4AgdWa5JAvONw==",
+      "path": "vlc.dotnet.core.interops/3.1.0",
+      "hashPath": "vlc.dotnet.core.interops.3.1.0.nupkg.sha512"
+    },
+    "Vlc.DotNet.Wpf/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JvCAsjK67rjEeoOwFSZdGi7bx0Sp1/KjVat3GgdAfSKDrxy0ZD5Ih5GWuBZzQfplhEAbTT3DzqsvzcVYeWnI5w==",
+      "path": "vlc.dotnet.wpf/3.1.0",
+      "hashPath": "vlc.dotnet.wpf.3.1.0.nupkg.sha512"
+    },
+    "Camera_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileExplorer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Network_Connection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

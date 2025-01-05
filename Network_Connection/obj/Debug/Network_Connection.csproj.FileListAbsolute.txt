@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Network_Connection\bin\Debug\Network_Connection.dll
+C:\Users\Administrator\source\repos\Network_Connection\bin\Debug\Network_Connection.pdb
+C:\Users\Administrator\source\repos\Network_Connection\obj\Debug\Network_Connection.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Network_Connection\obj\Debug\Network_Connection.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Network_Connection\obj\Debug\Network_Connection.dll
+C:\Users\Administrator\source\repos\Network_Connection\obj\Debug\Network_Connection.pdb
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Network_Connection\bin\Debug\Network_Connection.dll
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Network_Connection\bin\Debug\Network_Connection.pdb
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Network_Connection\obj\Debug\Network_Connection.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Network_Connection\obj\Debug\Network_Connection.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Network_Connection\obj\Debug\Network_Connection.dll
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Network_Connection\obj\Debug\Network_Connection.pdb

@@ -1,0 +1,664 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\myviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\myviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\converters\\viewtocheckedconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:converters\\viewtocheckedconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\setariview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\setariview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\setariview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\setariview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\recordview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\recordview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\recordview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\recordview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\add_wificonnection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\add_wificonnection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\add_wificonnection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\add_wificonnection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\storageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\storageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\storageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\storageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\storageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\storageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\niveldoistocare.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\niveldoistocare.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\niveldoisetari.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\niveldoisetari.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\databaseviewer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\databaseviewer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\cameraplayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\cameraplayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\setariaplicatie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\setariaplicatie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\vizualizaresetari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\vizualizaresetari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\mainvizualizaremodele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\mainvizualizaremodele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\addcameras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\addcameras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\proiect_licenta_networkcamapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:proiect_licenta_networkcamapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\databaseviewer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\databaseviewer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616A7771-9900-4A7D-B720-E06E153E72D0}|..\\Network_Connection\\Network_Connection.csproj|c:\\users\\administrator\\source\\repos\\network_connection\\wifiscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616A7771-9900-4A7D-B720-E06E153E72D0}|..\\Network_Connection\\Network_Connection.csproj|c:\\users\\administrator\\source\\repos\\network_connection\\wifinetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{508A3146-4A81-437D-88AE-36578E709145}|..\\Camera\\Camera_.csproj|c:\\users\\administrator\\source\\repos\\camera\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{508A3146-4A81-437D-88AE-36578E709145}|..\\Camera\\Camera.csproj|c:\\users\\administrator\\source\\repos\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\sys\\setariaplicatie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:sys\\setariaplicatie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\cameraplayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\cameraplayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\niveldoisetari.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\niveldoisetari.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\view\\setariview\\niveldoistocare.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:view\\setariview\\niveldoistocare.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|c:\\users\\administrator\\source\\repos\\proiect_licenta_networkcamapp\\style\\butonmeniu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9C8A4F8-5423-41A9-BAAD-880AE43A2D21}|Proiect_Licenta_NetworkCamApp.csproj|solutionrelative:style\\butonmeniu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T00:02:32.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T00:06:05.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\MyViewModel.cs",
+              "RelativeDocumentMoniker": "Sys\\MyViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\MyViewModel.cs",
+              "RelativeToolTip": "Sys\\MyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:11:07.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewToCheckedConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Converters\\ViewToCheckedConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\ViewToCheckedConverter.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Converters\\ViewToCheckedConverter.cs",
+              "RelativeToolTip": "Converters\\ViewToCheckedConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T01:42:32.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "Sys\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\ObservableObject.cs",
+              "RelativeToolTip": "Sys\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:12:10.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Record.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\Record.cs",
+              "RelativeDocumentMoniker": "Sys\\Record.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\Record.cs",
+              "RelativeToolTip": "Sys\\Record.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:13:15.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SetariView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\SetariView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\SetariView.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\SetariView.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\SetariView.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:46:58.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SetariView.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\SetariView.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\SetariView.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\SetariView.xaml",
+              "RelativeToolTip": "View\\SetariView\\SetariView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:42:45.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecordView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\RecordView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\RecordView.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\RecordView.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\RecordView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:48:26.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecordView.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\RecordView.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\RecordView.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\RecordView.xaml",
+              "RelativeToolTip": "View\\SetariView\\RecordView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:45:26.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Sys\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\RelayCommand.cs",
+              "RelativeToolTip": "Sys\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:13:59.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Add_WifiConnection.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\Add_WifiConnection.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\Add_WifiConnection.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\Add_WifiConnection.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\Add_WifiConnection.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T23:07:13.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Add_WifiConnection.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\Add_WifiConnection.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\Add_WifiConnection.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\Add_WifiConnection.xaml",
+              "RelativeToolTip": "View\\SetariView\\Add_WifiConnection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T23:06:51.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StorageView.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\StorageView.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\StorageView.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\StorageView.xaml",
+              "RelativeToolTip": "View\\SetariView\\StorageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T00:16:35.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StorageView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\StorageView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\StorageView.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\StorageView.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\StorageView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T00:17:16.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StorageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\StorageViewModel.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\StorageViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\StorageViewModel.cs",
+              "RelativeToolTip": "View\\SetariView\\StorageViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:56:45.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NivelDoiStocare.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiStocare.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\NivelDoiStocare.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiStocare.xaml",
+              "RelativeToolTip": "View\\SetariView\\NivelDoiStocare.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:32:08.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NivelDoiSetari.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiSetari.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\NivelDoiSetari.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiSetari.xaml",
+              "RelativeToolTip": "View\\SetariView\\NivelDoiSetari.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:28:05.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DatabaseViewer.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\DatabaseViewer.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\DatabaseViewer.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\DatabaseViewer.xaml",
+              "RelativeToolTip": "View\\SetariView\\DatabaseViewer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:25:18.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CameraPlayer.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\CameraPlayer.xaml",
+              "RelativeDocumentMoniker": "View\\SetariView\\CameraPlayer.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\CameraPlayer.xaml",
+              "RelativeToolTip": "View\\SetariView\\CameraPlayer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T00:09:11.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SetariAplicatie.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\SetariAplicatie.xaml",
+              "RelativeDocumentMoniker": "Sys\\SetariAplicatie.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\SetariAplicatie.xaml",
+              "RelativeToolTip": "Sys\\SetariAplicatie.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:16:39.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VizualizareSetari.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\VizualizareSetari.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\VizualizareSetari.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\VizualizareSetari.cs",
+              "RelativeToolTip": "View\\SetariView\\VizualizareSetari.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:33:56.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainVizualizareModele.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\MainVizualizareModele.cs",
+              "RelativeDocumentMoniker": "Sys\\MainVizualizareModele.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\MainVizualizareModele.cs",
+              "RelativeToolTip": "Sys\\MainVizualizareModele.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:10:20.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T20:37:26.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-03T02:03:15.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T22:45:57.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T20:37:25.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddCameras.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\AddCameras.cs",
+              "RelativeDocumentMoniker": "Sys\\AddCameras.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\AddCameras.cs",
+              "RelativeToolTip": "Sys\\AddCameras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:06:59.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DatabaseViewer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\DatabaseViewer.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\DatabaseViewer.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\DatabaseViewer.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\DatabaseViewer.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvykAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:25:42.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Proiect_Licenta_NetworkCamApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Proiect_Licenta_NetworkCamApp.csproj",
+              "RelativeDocumentMoniker": "Proiect_Licenta_NetworkCamApp.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Proiect_Licenta_NetworkCamApp.csproj",
+              "RelativeToolTip": "Proiect_Licenta_NetworkCamApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T23:06:11.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WiFiNetwork.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Network_Connection\\WiFiNetwork.cs",
+              "RelativeDocumentMoniker": "..\\Network_Connection\\WiFiNetwork.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Network_Connection\\WiFiNetwork.cs",
+              "RelativeToolTip": "..\\Network_Connection\\WiFiNetwork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T01:12:21.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NivelDoiSetari.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiSetari.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\NivelDoiSetari.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiSetari.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\NivelDoiSetari.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:28:14.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "NivelDoiStocare.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiStocare.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\NivelDoiStocare.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\NivelDoiStocare.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\NivelDoiStocare.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:32:15.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WiFiScanner.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Network_Connection\\WiFiScanner.cs",
+              "RelativeDocumentMoniker": "..\\Network_Connection\\WiFiScanner.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Network_Connection\\WiFiScanner.cs",
+              "RelativeToolTip": "..\\Network_Connection\\WiFiScanner.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T01:12:54.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Camera\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\Camera\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Camera\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\Camera\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T20:40:38.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T15:02:52.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SetariAplicatie.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\SetariAplicatie.xaml.cs",
+              "RelativeDocumentMoniker": "Sys\\SetariAplicatie.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Sys\\SetariAplicatie.xaml.cs",
+              "RelativeToolTip": "Sys\\SetariAplicatie.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:16:43.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CameraPlayer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\CameraPlayer.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SetariView\\CameraPlayer.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\View\\SetariView\\CameraPlayer.xaml.cs",
+              "RelativeToolTip": "View\\SetariView\\CameraPlayer.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T00:09:27.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Camera\\Camera.cs",
+              "RelativeDocumentMoniker": "..\\Camera\\Camera.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Camera\\Camera.cs",
+              "RelativeToolTip": "..\\Camera\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T00:44:01.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ButonMeniu.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Style\\ButonMeniu.xaml",
+              "RelativeDocumentMoniker": "Style\\ButonMeniu.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Proiect_Licenta_NetworkCamApp\\Style\\ButonMeniu.xaml",
+              "RelativeToolTip": "Style\\ButonMeniu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T23:04:35.86Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 180,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
