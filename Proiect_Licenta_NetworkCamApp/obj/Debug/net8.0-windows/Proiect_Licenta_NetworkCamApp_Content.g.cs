@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("illink.descriptors.librarybuild.xml")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/image/icon/iconcam.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lib/libvlcsharp.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lib/libvlcsharp.wpf.dll")]

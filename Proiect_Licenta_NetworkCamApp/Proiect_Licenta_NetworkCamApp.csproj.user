@@ -40,6 +40,9 @@
     <Compile Update="View\SetariView\StorageView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Virtualization\CreazaPartitie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -79,6 +82,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\SetariView\StorageView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Virtualization\CreazaPartitie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Virtualization\Virtualization_Main.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

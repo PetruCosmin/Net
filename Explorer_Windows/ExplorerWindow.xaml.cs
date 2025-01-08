@@ -32,16 +32,17 @@ namespace FileExplorer
         private Stack<string> forwardStack = new();
         public string currentPath = string.Empty;
         public BitmapSource Icon { get; set; }
-       
+        
 
         public ExplorerWindow()
         {
             InitializeComponent();
 
-            Loaded += MainWindow_Loaded;
-
+           Loaded += MainWindow_Loaded;
+          
+          
         }
-
+      
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             // Load drives into the DrivesListBox
@@ -50,7 +51,7 @@ namespace FileExplorer
                 DrivesListBox.Items.Add(drive);
             }
         }
-
+        
         private void SidebarListBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             if (SidebarListBox.SelectedItem is ListBoxItem sidebarItem)
@@ -164,28 +165,12 @@ namespace FileExplorer
             */
 
 
-            Primeste_VHD(currentPath);
+            VHD_send. Primeste_VHD(currentPath);
         }
 
-        public void Primeste_VHD(string currentPath)
-        {
-            MessageBox.Show("Metoda Selectata!");
+        
 
-            if (string.IsNullOrEmpty(currentPath))
-            {
-                MessageBox.Show("Calea fișierului este invalidă.", "Eroare", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
-
-            // Adaugă logica necesară pentru a procesa fișierul selectat
-            MessageBox.Show($"Calea fișierului VHD primită: {currentPath}", "Primire VHD", MessageBoxButton.OK, MessageBoxImage.Information);
-
-            // Exemplu: Poți folosi această cale pentru alte operațiuni
-            // De exemplu, montarea unui VHD:
-            // MountVHD(filePath); // Implementare separată pentru montare
-        }
-
-
+        
 
 
         private void FileListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -201,7 +186,7 @@ namespace FileExplorer
                     try
                     {
                        
-                        Primeste_VHD(currentPath);
+                        VHD_send. Primeste_VHD(currentPath);
                     }
                     catch (Exception ex)
                     {
@@ -283,11 +268,7 @@ namespace FileExplorer
 
             return null;
         }
-
-
-
-
-        private FileItem CreateFileItem(string path)
+        public FileItem CreateFileItem(string path)
         {
             try
             {
@@ -319,6 +300,10 @@ namespace FileExplorer
                 return null;
             }
         }
+
+
+
+
 
 
         private void UpdateStatus()

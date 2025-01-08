@@ -5,7 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Data;
+using System.Windows.Interop;
 using System.Windows.Media.Imaging;
 
 namespace FileExplorer.Helper
@@ -77,6 +79,68 @@ namespace FileExplorer.Helper
         {
             return System.IO.Directory.Exists(directoryPath);
         }
+
+        public static BitmapSource GetFolderIcon()
+        {
+            try
+            {
+                // Calea către folderul System32
+                string system32Path = Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\WinSxS\amd64_microsoft-windows-dxp-deviceexperience_31bf3856ad364e35_10.0.20348.2849_none_ef67066c2c259c24";
+
+                // Extrage iconul asociat cu folderul Windows
+                using (var icon = System.Drawing.Icon.ExtractAssociatedIcon(system32Path + @"\Folder.ico"))
+                {
+                    if (icon != null)
+                    {
+                        // Convertirea iconului în BitmapSource pentru WPF
+                        return Imaging.CreateBitmapSourceFromHIcon(
+                            icon.Handle,
+                            new Int32Rect(0, 0, icon.Width, icon.Height),
+                            BitmapSizeOptions.FromWidthAndHeight(icon.Width, icon.Height));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Eroare la obținerea iconului: {ex.Message}");
+            }
+
+            return null;
+        }
+        public FileItem CreateFileItem(string path)
+        {
+            try
+            {
+                // Verify if the file exists
+                if (!System.IO.File.Exists(path))
+                {
+                    MessageBox.Show($"File does not exist: {path}");
+                    return null;
+                }
+
+                var fileInfo = new FileInfo(path);
+
+                // Ensure the FileItem is created properly
+                return new FileItem
+                {
+                    Name = fileInfo.Name,
+                    Path = fileInfo.FullName,
+                    Icon = File.FileItem.GetFileIcon(path)
+                };
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                MessageBox.Show($"Unauthorized access to file: {path} - {ex.Message}");
+                return null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Eroare la crearea FileItem pentru: {path} - {ex.Message}");
+                return null;
+            }
+        }
+
+
 
     }
 }

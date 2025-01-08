@@ -7,11 +7,12 @@
         WindowState="Normal"
         ResizeMode="CanResize"
        
-        xmlns:local="clr-namespace:Proiect_Licenta_NetworkCamApp.Converters"
+        xmlns:dlocal="clr-namespace:Proiect_Licenta_NetworkCamApp.Converters"
         Background="#151557"
         Height="768"
         Width="1024"
         WindowStyle="SingleBorderWindow"
+         
         Icon="pack://application:,,,/Resources/Image/Icon/iconcam.ico">
 
 
@@ -67,9 +68,9 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-        
-          
-        <local:ViewToCheckedConverter x:Key="ViewToCheckedConverter" />
+
+
+        <dlocal:ViewToCheckedConverter x:Key="ViewToCheckedConverter" />
         
     </Window.Resources>
 
@@ -94,9 +95,31 @@
                        Grid.Column="0"
                        Margin="75,14,0,0" Grid.ColumnSpan="2" />
 
-            <Frame x:Name="MainFrame" Grid.Row="1" Grid.Column="1" Background="Lavender"
-                   NavigationUIVisibility="Hidden" Margin="10,125,10,10" 
-                   Navigated="MainFrame_Navigated" />
+            <ScrollViewer 
+                  Grid.Row="0" 
+                Grid.Column="0" 
+                Grid.RowSpan="3" 
+                Grid.ColumnSpan="3" 
+                HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch" 
+    
+    
+                Margin="210,210,15,15" 
+              HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="Lavender"
+              Panel.ZIndex="2">
+                <WrapPanel Name="MainFrame" 
+               
+                           Width="1200" Height="600"
+               Panel.ZIndex="3">
+                    <!-- Conținutul va fi adăugat dinamic aici -->
+                </WrapPanel>
+            </ScrollViewer>
+
+
+
+
+
+
             <!-- Buton meniu -->
 
 
@@ -143,7 +166,11 @@ Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
 
                     </Button>
                 </StackPanel>
+                <Button VerticalAlignment="Center"  Click="VirtualPart_Click">
+                    <TextBlock Text="Partitie Virtuala" VerticalAlignment="Center" />
 
+
+                </Button>
 
 
                 <StackPanel Orientation="Horizontal" Margin="0,200,0,0">

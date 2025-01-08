@@ -25,6 +25,8 @@
 	<ItemGroup>
 		<PackageReference Include="LibVLCSharp" Version="3.9.1" />
 		<PackageReference Include="LibVLCSharp.WPF" Version="3.9.1" />
+		<PackageReference Include="System.Diagnostics.DiagnosticSource" Version="9.0.0" />
+		<PackageReference Include="System.Management.Automation" Version="7.4.6" />
 		<PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.21" />
 		<PackageReference Include="Vlc.DotNet.Core" Version="3.1.0" />
 		<PackageReference Include="Vlc.DotNet.Wpf" Version="3.1.0" />
@@ -34,6 +36,7 @@
 	  <ProjectReference Include="..\Camera\Camera_.csproj" />
 	  <ProjectReference Include="..\Explorer_Windows\FileExplorer.csproj" />
 	  <ProjectReference Include="..\Network_Connection\Network_Connection.csproj" />
+	  <ProjectReference Include="..\Virtualization\Virtualization.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -42,10 +45,17 @@
 			<AutoGen>True</AutoGen>
 			<DependentUpon>Settings.settings</DependentUpon>
 		</Compile>
+		<Compile Update="Virtualization\Virtualization_Main.xaml.cs">
+		  <SubType>Code</SubType>
+		</Compile>
 		<None Update="Properties\Settings.settings">
 			<Generator>SettingsSingleFileGenerator</Generator>
 			<LastGenOutput>Settings.Designer.cs</LastGenOutput>
 		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Virtualization\NewFolder\" />
 	</ItemGroup>
 
 </Project>

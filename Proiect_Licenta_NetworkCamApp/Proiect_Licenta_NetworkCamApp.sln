@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camera_", "..\Camera\Camera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network_Connection", "..\Network_Connection\Network_Connection.csproj", "{616A7771-9900-4A7D-B720-E06E153E72D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtualization", "..\Virtualization\Virtualization.csproj", "{04F11084-155A-4443-AADD-51EA2ED9C49B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{616A7771-9900-4A7D-B720-E06E153E72D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616A7771-9900-4A7D-B720-E06E153E72D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616A7771-9900-4A7D-B720-E06E153E72D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F11084-155A-4443-AADD-51EA2ED9C49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F11084-155A-4443-AADD-51EA2ED9C49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F11084-155A-4443-AADD-51EA2ED9C49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F11084-155A-4443-AADD-51EA2ED9C49B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

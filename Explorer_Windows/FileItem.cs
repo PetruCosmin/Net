@@ -26,7 +26,7 @@ namespace FileExplorer
             public string FileName => System.IO.Path.GetFileName(FilePath);
             public BitmapSource Icon { get; set; }
             public bool IsDirectory { get; internal set; }
-        public string FullPath { get; internal set; }
+        public string FullPath { get; set; }
 
         // Constructor implicit (fără parametri)
         public FileItem()
