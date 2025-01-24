@@ -19,6 +19,9 @@
     <Compile Update="View\SetariView\Add_WifiConnection.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\SetariView\CameraControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\SetariView\CameraPlayer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +64,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\SetariView\Add_WifiConnection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SetariView\CameraControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\SetariView\CameraPlayer.xaml">

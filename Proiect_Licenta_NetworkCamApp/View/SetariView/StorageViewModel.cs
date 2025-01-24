@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Media3D;
-using Camera_;
+using Camera_Library;
 
 
 
@@ -69,9 +69,7 @@ namespace Proiect_Licenta_NetworkCamApp.View.SetariView
 
                 Cameras = new ObservableCollection<CameraProperties>
             {
-                new CameraProperties { Name = "Camera 1", Usage = 50, Size = "1 GB" },
-                new CameraProperties { Name = "Camera 2", Usage = 70, Size = "1 GB" },
-                new CameraProperties { Name = "Camera 3", Usage = 80, Size = "1 GB" }
+               
             };
             }
 

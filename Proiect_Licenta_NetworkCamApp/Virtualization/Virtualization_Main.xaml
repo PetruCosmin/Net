@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Proiect_Licenta_NetworkCamApp.Virtualization.Virtualization_Main"
+﻿<Page x:Class="Proiect_Licenta_NetworkCamApp.Virtualization.Virtualization_Main"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -48,11 +48,26 @@
                     <TextBlock Text="Drives" FontWeight="Bold" Margin="10,20,10,10"/>
                     <ListBox Name="DrivesListBox" Margin="10" BorderThickness="0" MouseDoubleClick="DrivesListBox_SelectionClick" KeyDown="Main_KeyDown"/>
 
-                    <WrapPanel Height="70" Width="160" Margin="20,4,20,20" Background="Beige" Grid.ColumnSpan="2">
-                        <StackPanel Orientation="Vertical" Margin="10">
-                            <Button x:Name="CreateVhdButton" Content="Crează Spațiu" Click="CreateVhdButton_Click" Width="137" Height="30"/>
-                        </StackPanel>
+                    <WrapPanel Height="150" Width="200" Margin="30,150,20,20"  Grid.ColumnSpan="2" 
+              HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Border BorderBrush="Black" BorderThickness="2" CornerRadius="8" Background="Blue">
+                            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="8" Background="LightSlateGray">
+                                <StackPanel Orientation="Vertical" Margin="10">
+                                    <Button x:Name="CreateVhdButton" Content="Crează Spațiu" Click="CreateVhdButton_Click" 
+                        Width="200" Height="30" Background="#B2DFF2" Foreground="Black" 
+                        BorderBrush="DarkSlateGray" BorderThickness="2"
+                        FontFamily="Arial" FontSize="12" FontWeight="Bold" 
+                        HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    <Button Content="Create and Attach VHD" Click="CreateAttachVHDButton_Click" 
+                        Width="200" Height="30" Background="#87CEFA" Foreground="Black" 
+                        BorderBrush="DarkSlateGray" BorderThickness="2"
+                        FontFamily="Arial" FontSize="12" FontWeight="Bold" 
+                        HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Border>
+                        </Border>
                     </WrapPanel>
+
                 </StackPanel>
 
                 <!-- File list -->
@@ -100,4 +115,4 @@
             <StatusBarItem Content="Ongoing Operations: 0" HorizontalAlignment="Right" Name="StatusOperations"/>
         </StatusBar>
     </Grid>
-</UserControl>
+</Page>

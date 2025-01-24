@@ -14,6 +14,8 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
+		<FrameworkReference Include="Microsoft.Windows.Compatibility" />
+		<Reference Include="WindowsBase" />
 		<Reference Include="PresentationFramework" />
 		<Reference Include="WindowsBase" />
 		<Reference Include="PresentationCore" />

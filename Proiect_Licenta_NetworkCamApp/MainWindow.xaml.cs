@@ -23,10 +23,9 @@ using System.IO;
 using System.Threading;
 using System.Collections.ObjectModel;
 using System.Globalization;
-using Camera_;
+using Camera_Library;
 using FileExplorer;
 using Proiect_Licenta_NetworkCamApp.View;
-using Virtualization;
 using Proiect_Licenta_NetworkCamApp.Virtualization;
 
 
@@ -64,11 +63,12 @@ namespace Proiect_Licenta_NetworkCamApp
         private void LoadVirtualizationControl()
         {
             // Șterge toate controalele din MainFrame, lăsând doar unul singur activ
-            MainFrame.Children.Clear();
+            MainFrame.Content = null;
 
             // Creează o instanță a UserControl-ului și îl adaugă în MainFrame
-            var virtualizationControl = new Virtualization.Virtualization_Main();
-            MainFrame.Children.Add(virtualizationControl);
+            //var virtualizationControl = new Virtualization_Main();
+            //MainFrame.Children.Add(virtualizationControl);
+            MainFrame.Navigate(new Virtualization_Main());
         }
 
 
@@ -77,7 +77,8 @@ namespace Proiect_Licenta_NetworkCamApp
         {
             LoadVirtualizationControl();
         }
-       
+
+      
 
 
 
@@ -88,30 +89,23 @@ namespace Proiect_Licenta_NetworkCamApp
             {
                 if (radioButton.Content.ToString() == "SETARI")
                 {
-                    MainFrame.Children.Add(new NivelDoiSetari());
+                    MainFrame.Navigate(new NivelDoiSetari());
                 }
                 else if (radioButton.Content.ToString() == "STORAGE")
                 {
-                    MainFrame.Children.Add(new NivelDoiStocare());
+                    MainFrame.Navigate(new NivelDoiStocare());
                 }
                 else if (radioButton.Content.ToString() == "CAMERE")
                 {
                     // Deschide CameraPlayer ca o nouă fereastră
                     CameraPlayer cameraPlayer = new CameraPlayer();
-                    MainFrame.Children.Add(cameraPlayer);
+                    MainFrame.Navigate(cameraPlayer);
                 }
             }
         }
 
 
 
-
-        // Eveniment pentru butonul de adaugare camera
-        private void AddCameraButton_Click(object sender, RoutedEventArgs e)
-        {
-            // apelam metoda AddCamera din clasa AddCameras
-            _addCameras.AddCamera();
-        }
 
        
 
@@ -156,13 +150,13 @@ namespace Proiect_Licenta_NetworkCamApp
         {
             CameraPlayer cameraPlayer = new CameraPlayer();
             // Check if CameraPlayer is already displayed
-            if (MainFrame.Children is CameraPlayer)
+            if (MainFrame.Content is CameraPlayer)
             {
                 return;
                 // Exit if CameraPlayer is already displayed
             }
             // Display CameraPlayer in the Frame
-            MainFrame.Children.Add(cameraPlayer);
+            MainFrame.Navigate(cameraPlayer);
         }
 
         
@@ -170,37 +164,58 @@ namespace Proiect_Licenta_NetworkCamApp
         {
             CameraListControl cameralist = new CameraListControl();
             // Check if CameraPlayer is already displayed
-            if (MainFrame.Children is CameraListControl)
+            if (MainFrame.Content is CameraListControl)
             {
                 return;
                 // Exit if CameraPlayer is already displayed
             }
             // Display CameraPlayer in the Frame
-            MainFrame.Children.Add(cameralist);
+            MainFrame.Navigate(cameralist);
         }
+
 
         private void VirtualPart_Click(object sender, RoutedEventArgs e)
         {
             // Verificați dacă Virtualization_Main este deja afișat
-            if (MainFrame.Children is Virtualization. Virtualization_Main)
+            if (MainFrame.Content is Virtualization. Virtualization_Main)
             {
                 return; // Ieșiți dacă Virtualization_Main este deja afișat
             }
 
             // Inițializați și afișați Virtualization_Main în cadrul principal
             Virtualization. Virtualization_Main virtualMain = new Virtualization.Virtualization_Main();
-            MainFrame.Children.Add(virtualMain);
+            MainFrame.Navigate(virtualMain);
         }
 
 
 
+        //--------------Gestionare lista camere----------------------------------
 
-    
+        // Eveniment pentru butonul de adaugare camera
+        private void AddCameraButton_Click(object sender, RoutedEventArgs e)
+        {
+            // apelam metoda AddCamera din clasa AddCameras
+            _addCameras.AddCamera();
+        }
+        public void DisplayControl(UserControl control)
+        {
+
+            MainFrame.Content = null ; // Elimină orice control existent
+            MainFrame.Navigate(control); // Adaugă noul UserControl
+        }
+
+
+        //-------------End-Gestionare lista camere-------------------------------
+
 
 
         /*----------------------------------------------------------------------*/
 
-
+        public static void NavigateToMainWindow()
+        {
+            var mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
 
 
     }

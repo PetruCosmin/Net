@@ -18,7 +18,7 @@
 
 
     <Window.Resources>
-          
+
         <!-- Stil pentru ButonMeniu -->
         <Style x:Key="ButonMeniu" TargetType="RadioButton">
             <Setter Property="Background" Value="#107575"/>
@@ -71,7 +71,7 @@
 
 
         <dlocal:ViewToCheckedConverter x:Key="ViewToCheckedConverter" />
-        
+
     </Window.Resources>
 
     <Border Background="#151557">
@@ -96,32 +96,24 @@
                        Margin="75,14,0,0" Grid.ColumnSpan="2" />
 
             <ScrollViewer 
-                  Grid.Row="0" 
-                Grid.Column="0" 
-                Grid.RowSpan="3" 
-                Grid.ColumnSpan="3" 
-                HorizontalAlignment="Stretch" 
-                VerticalAlignment="Stretch" 
+                  Grid.Row="1" 
+                Grid.Column="1" 
     
     
-                Margin="210,210,15,15" 
+                Margin="10,135,15,51" 
               HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="Lavender"
               Panel.ZIndex="2">
-                <WrapPanel Name="MainFrame" 
+                <Frame Name="MainFrame" 
+                       BorderBrush="Black" BorderThickness="2,2,0,0" 
                
-                           Width="1200" Height="600"
+                          
                Panel.ZIndex="3">
-                    <!-- Conținutul va fi adăugat dinamic aici -->
-                </WrapPanel>
+
+                    <!-- Conținutul Frame-ului -->
+                </Frame>
             </ScrollViewer>
 
-
-
-
-
-
             <!-- Buton meniu -->
-
 
             <StackPanel Grid.Column="0" Grid.Row="1" Background="Lavender" Margin="0,0,0,52">
                 <!-- RadioButton for SETARI CAMERA -->
@@ -151,7 +143,7 @@
 
                 <StackPanel Orientation="Horizontal" Margin="0,200,0,0">
                     <Image Source="C:\Users\Administrator\source\repos\FileExplorer03\FileExplorer03\Image\folder_image.png" 
-Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
+                            Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
                         <Image.OpacityMask>
                             <LinearGradientBrush>
                                 <GradientStop Color="Transparent" Offset="0"/>
@@ -161,7 +153,7 @@ Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
                         </Image.OpacityMask>
                     </Image>
                     <Button VerticalAlignment="Center"  Click="Playback_Click">
-                        <TextBlock Text="SETARI Aplicatie" VerticalAlignment="Center" />
+                        <TextBlock Text="PLAY CAMERA" VerticalAlignment="Center" />
 
 
                     </Button>
@@ -173,7 +165,7 @@ Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
                 </Button>
 
 
-                <StackPanel Orientation="Horizontal" Margin="0,200,0,0">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
                     <Image Source="C:\Users\Administrator\source\repos\FileExplorer03\FileExplorer03\Image\folder_image.png" 
            Width="20" Height="20" Margin="5,0,10,0" Opacity="0.5">
                         <Image.OpacityMask>
@@ -185,20 +177,10 @@ Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
                         </Image.OpacityMask>
                     </Image>
                     <Button VerticalAlignment="Center"  Click="FileExplorer_Click">
-                        <TextBlock Text="SETARI Aplicatie" VerticalAlignment="Center" />
-                        
-
+                        <TextBlock Text="EXPLORER" VerticalAlignment="Center"/>
                     </Button>
                 </StackPanel>
-
-
-
-
             </StackPanel>
-
-
-
-
 
 
             <!-- Buton pentru adaugare camere -->
@@ -217,7 +199,7 @@ Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
                             </LinearGradientBrush>
                         </Image.OpacityMask>
                     </Image>
-                   
+
                 </StackPanel>
             </Button>
 
@@ -226,10 +208,18 @@ Width="20" Height="20" Margin="5,-200,10,0" Opacity="0.5">
             <Border Grid.Column="1" BorderBrush="Transparent" BorderThickness="2" Background="Transparent" 
                     Grid.Row="1" Margin="150,10,10,10">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-                    <WrapPanel x:Name="MainGrid" Orientation="Horizontal" Margin="0">
-                        <!-- Camerele se adaugă aici -->
-                    </WrapPanel>
+                    <Grid x:Name="MainGrid" Margin="0">
+                        <Grid.ColumnDefinitions>
+                            <!-- Coloane vor fi adăugate dinamic pe măsură ce sunt adăugate camere -->
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <!-- Un singur rând pentru toate camerele -->
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <!-- Camerele vor fi plasate într-un singur rând -->
+                    </Grid>
                 </ScrollViewer>
+
             </Border>
         </Grid>
     </Border>

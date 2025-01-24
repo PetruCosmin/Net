@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Proiect_Licenta_NetworkCamApp\App.xaml
-15-917660255
+16-724531928
 848311036706
-27-595893563
-217-89218867
-MainWindow.xaml;Style\ButonMeniu.xaml;Sys\SetariAplicatie.xaml;View\CameraListControl.xaml;View\CameraListControl1.xaml;View\SetariView\Add_WifiConnection.xaml;View\SetariView\CameraPlayer.xaml;View\SetariView\DatabaseViewer.xaml;View\SetariView\NivelDoiSetari.xaml;View\SetariView\NivelDoiStocare.xaml;View\SetariView\RecordView.xaml;View\SetariView\SetariView.xaml;View\SetariView\StorageView.xaml;Virtualization\CreazaPartitie.xaml;Virtualization\Virtualization_Main.xaml;
+36951141629
+232-716284139
+MainWindow.xaml;Style\ButonMeniu.xaml;Sys\SetariAplicatie.xaml;View\CameraListControl.xaml;View\CameraListControl1.xaml;View\SetariView\Add_WifiConnection.xaml;View\SetariView\CameraControl.xaml;View\SetariView\CameraPlayer.xaml;View\SetariView\DatabaseViewer.xaml;View\SetariView\NivelDoiSetari.xaml;View\SetariView\NivelDoiStocare.xaml;View\SetariView\RecordView.xaml;View\SetariView\SetariView.xaml;View\SetariView\StorageView.xaml;Virtualization\CreazaPartitie.xaml;Virtualization\Virtualization_Main.xaml;
 
 False
 

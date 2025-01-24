@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\bin\Debug\Camera_Library.dll
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\bin\Debug\Camera_Library.pdb
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library_MarkupCompile.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library_MarkupCompile.lref
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Themes\Generic.baml
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.g.resources
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.dll
+C:\Users\Administrator\source\repos\Proiect_Licenta_NetworkCamApp\Camera_Library\obj\Debug\Camera_Library.pdb

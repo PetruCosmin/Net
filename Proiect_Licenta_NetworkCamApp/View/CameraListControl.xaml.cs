@@ -18,9 +18,9 @@ namespace Proiect_Licenta_NetworkCamApp.View
     /// <summary>
     /// Interaction logic for CameraListControl.xaml
     /// </summary>
-    public partial class CameraListControl : UserControl
+    public partial class CameraListControl : Page
     {
-        public WrapPanel CameraWrapPanel => CameraWrapPanelElement;
+        //public WrapPanel CameraWrapPanel => CameraWrapPanelElement;
 
         public CameraListControl()
         {

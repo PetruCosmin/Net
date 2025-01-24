@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Management;
 using System.Management.Automation;
 using System.Security.Principal;
 using System.Text;
@@ -15,16 +16,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Virtualization;
-
+using Proiect_Licenta_NetworkCamApp.Virtualization;
 
 
 
 namespace Proiect_Licenta_NetworkCamApp.Virtualization
 {
-    /// <summary>
-    /// Interaction logic for CreazaPartitie.xaml
-    /// </summary>
     /// <summary>
     /// Interaction logic for CreazaPartitie.xaml
     /// </summary>
@@ -34,7 +31,7 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
         public VHDManager vhdManager;
         public DriveLetterAssigner DriveLetterAssigner_ { get; set; }
 
-
+        //public DriveLetterAssigner DriveLetterAssigner_ = new DriveLetterAssigner("your-disk-path-here");
 
 
         public CreazaPartitie()
@@ -47,9 +44,10 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
                 RunAsAdministrator();
                 return;
             }
-
+            //LoadAvailableDriveLetters();
             PopulateDriveLetterComboBox();
         }
+
 
         private void PopulateDriveLetterComboBox()
         {
@@ -62,6 +60,15 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
             if (DriveLetterComboBox.Items.Count > 0)
             {
                 ((ComboBoxItem)DriveLetterComboBox.Items[0]).IsSelected = true;
+            }
+        }
+        private void LoadAvailableDriveLetters()
+        {
+            var availableLetters = GetAvailableDriveLetters();
+            DriveLetterComboBox.ItemsSource = availableLetters;
+            if (availableLetters.Count > 0)
+            {
+                DriveLetterComboBox.SelectedIndex = 0; // Selectăm prima literă disponibilă
             }
         }
 
@@ -87,6 +94,9 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
             }
             return letters;
         }
+
+
+
 
         private void FormatButton_Click(object sender, RoutedEventArgs e)
         {
@@ -176,12 +186,12 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
             InitializeAndPartitionDisk();
 
             // Alocă litera de unitate
-            //DriveLetterAssigner.AssignDriveLetter();
+           // DriveLetterAssigner_.AssignDriveLetter();
 
-            NavigateToMainWindow();
+            // Example usage in CreazaPartitie.xaml.cs
 
 
-
+           
 
         }
 
@@ -190,7 +200,7 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
             if (DriveLetterComboBox.SelectedItem is ComboBoxItem selectedItem)
             {
                 // Creează o instanță a clasei DriveLetterAssigner
-                DriveLetterAssigner_ = new DriveLetterAssigner("your-disk-path-here")
+                DriveLetterAssigner_ = new DriveLetterAssigner(diskPath)
                 {
                     DriveLetterAssigner_ = selectedItem.Content.ToString() // Setează litera selectată
                 };
@@ -266,7 +276,7 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
                     if (DriveLetterComboBox.SelectedItem is ComboBoxItem selectedItem)
                     {
                         // Inițializează DriveLetterAssigner_ și setează litera selectată
-                        DriveLetterAssigner_ = new DriveLetterAssigner("your-disk-path-here")
+                        DriveLetterAssigner_ = new DriveLetterAssigner(diskPath)
                         {
                             DriveLetterAssigner_ = selectedItem.Content.ToString()
                         };
@@ -356,14 +366,12 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
         }
 
 
-        public static void NavigateToMainWindow()
-        {
-            var mainWindow = new MainWindow();
-            mainWindow.Show();
-        }
+        
+
+
+
 
 
 
     }
 }
-

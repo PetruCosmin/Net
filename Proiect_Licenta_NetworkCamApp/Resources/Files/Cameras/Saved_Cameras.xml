@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCameraProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CameraProperties>
+    <CameraName_Properties>Camera 0</CameraName_Properties>
+    <Usage>0</Usage>
+    <ResolutionWidth>0</ResolutionWidth>
+    <ResolutionHeight>0</ResolutionHeight>
+    <FrameRate>0</FrameRate>
+    <IsEnabled>false</IsEnabled>
+    <LastConnectionTime>0001-01-01T00:00:00</LastConnectionTime>
+    <IdCamera>0</IdCamera>
+  </CameraProperties>
+  <CameraProperties>
+    <CameraName_Properties>Camera 1</CameraName_Properties>
+    <Usage>0</Usage>
+    <ResolutionWidth>0</ResolutionWidth>
+    <ResolutionHeight>0</ResolutionHeight>
+    <FrameRate>0</FrameRate>
+    <IsEnabled>false</IsEnabled>
+    <LastConnectionTime>0001-01-01T00:00:00</LastConnectionTime>
+    <IdCamera>1</IdCamera>
+  </CameraProperties>
+</ArrayOfCameraProperties>

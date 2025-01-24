@@ -14,7 +14,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
 using System.Management.Automation;
 using System.Diagnostics;
 using System.Security.Principal;
@@ -28,7 +27,7 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
     /// <summary>
     /// Interaction logic for Virtualization_Main.xaml
     /// </summary>
-    public partial class Virtualization_Main : UserControl
+    public partial class Virtualization_Main : Page
     {
 
 
@@ -70,7 +69,7 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
             {
                 if (!Directory.Exists(path))
                 {
-                    MessageBox.Show("Virtual disk not mounted. Please mount the disk using the button to access recordings.",
+                    MessageBox.Show("Virtual disk not mounted. 'C:\\VirtualDisk\\' Please mount the disk using the button to access recordings.",
                                     "Disk Not Mounted", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
@@ -451,8 +450,9 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
       
         private void CreateVhdButton_Click(object sender, RoutedEventArgs e)
         {
+            
             // Navigate to CreazaPartitie page
-            var createPartitionPage = new CreazaPartitie();
+            var createPartitionPage = new Virtualization. CreazaPartitie();
             this.Content = createPartitionPage;
         }
 
@@ -467,6 +467,32 @@ namespace Proiect_Licenta_NetworkCamApp.Virtualization
             // Actualizare status pentru numărul de elemente selectate
             StatusSelectedItems.Content = $"Selected Items: {FileListView.SelectedItems.Count}";
         }
+
+
+       
+
+        private void CreateAttachVHDButton_Click(object sender, RoutedEventArgs e)
+        {
+            ////
+            ///Metoda care foloseste disk Management pentru sisteme
+            ///care nu suporta Hyper-V
+
+            try
+            {
+                ProcessStartInfo processStartInfo = new ProcessStartInfo
+                {
+                    FileName = "diskmgmt.msc", 
+                    UseShellExecute = true
+                };
+                Process.Start(processStartInfo);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while trying to open Disk Management: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+       
+
 
 
         //---------------------------------
